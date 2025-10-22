@@ -1,0 +1,5 @@
+python3 -m venv ~/venvs/bookshelf
+source ~/venvs/bookshelf/bin/activate
+
+python -m pip install --upgrade pip setuptools wheel
+pip install --upgrade --upgrade-strategy eager -r ~/bookshelf/requirements.txt
